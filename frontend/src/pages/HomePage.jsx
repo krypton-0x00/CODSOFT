@@ -1,6 +1,13 @@
 import Hero from "../components/Hero";
+import ItemCard from "../components/ItemCard.jsx";
+import ProductsContainer from "../components/ProductsContainer.jsx";
 const HomePage = () => {
-  return <Hero />;
+  return (
+    <div>
+      <Hero />
+      <ProductsContainer />
+    </div>
+  );
 };
 
 export default HomePage;
